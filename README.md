@@ -1,0 +1,1 @@
+# awesome-cockpit-package-starter
