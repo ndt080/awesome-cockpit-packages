@@ -1,0 +1,15 @@
+@use "headless/indeterminate-checkbox";
+@use "scroll";
+
+.pf-v5-c-form-control input {
+  outline: none;
+}
+
+
+.entity-card {
+  .pf-v5-c-card__header {
+    & > div {
+      align-self: center;
+    }
+  }
+}

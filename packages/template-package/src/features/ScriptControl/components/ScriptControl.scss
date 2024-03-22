@@ -1,0 +1,104 @@
+.script-control {
+  --pf-v5-c-button__icon--m-start--MarginRight: 8px;
+  transition: all 200ms, outline-width 0ms;
+
+  &, &.pf-m-progress {
+    --pf-v5-c-button--PaddingRight: 16px;
+    --pf-v5-c-button--PaddingLeft: 16px;
+  }
+
+  &:not(:disabled).script-control--default {
+    color: var(--pf-v5-global--Color--light-100);
+    background-color: var(--pf-v5-global--palette--black-850);
+
+    &:active, &:hover {
+      background-color: var(--pf-v5-global--palette--black-700);
+    }
+
+    &:focus-visible {
+      background-color: var(--pf-v5-global--palette--black-700);
+      outline: 2px solid var(--pf-v5-global--palette--black-900);
+    }
+
+    &.script-control--loading {
+      color: var(--pf-v5-global--Color--light-100);
+      background-color: var(--pf-v5-global--palette--black-600);
+      transition: all 200ms, outline-width 0ms;
+      pointer-events: none;
+    }
+
+    &.script-control--success {
+      color: var(--pf-v5-global--Color--light-100);
+      background-color: var(--pf-v5-global--success-color--100);
+      transition: all 200ms, outline-width 0ms;
+
+      &:active, &:hover {
+        background-color: var(--pf-v5-global--success-color--200);
+      }
+    }
+
+    &.script-control--danger {
+      color: var(--pf-v5-global--Color--light-100);
+      background-color: var(--pf-v5-global--danger-color--100);
+      transition: all 200ms, outline-width 0ms;
+
+      &:active, &:hover {
+        background-color: var(--pf-v5-global--danger-color--200);
+      }
+    }
+  }
+
+
+  &:not(:disabled).script-control--outline {
+    --pf-v5-c-button--after--BorderColor: var(--pf-v5-global--palette--black-850);
+    color: var(--pf-v5-global--palette--black-850);
+    background-color: transparent;
+
+    &:active, &:hover {
+      --pf-v5-c-button--after--BorderColor: var(--pf-v5-global--palette--black-700);
+      color: var(--pf-v5-global--palette--black-700);
+      background-color: transparent;
+    }
+
+    &:focus-visible {
+      --pf-v5-c-button--after--BorderColor: var(--pf-v5-global--palette--black-850);
+      color: var(--pf-v5-global--palette--black-850);
+      background-color: transparent;
+    }
+
+    &.script-control--loading {
+      --pf-v5-c-button--after--BorderColor: var(--pf-v5-global--palette--black-700);
+      --pf-v5-c-button--after--BorderWidth: var(--pf-v5-global--BorderWidth--md);
+      color: var(--pf-v5-global--palette--black-700);
+      background-color: transparent;
+      transition: all 200ms;
+      pointer-events: none;
+    }
+
+    &.script-control--success {
+      --pf-v5-c-button--after--BorderColor: var(--pf-v5-global--success-color--100);
+      color: var(--pf-v5-global--success-color--100);
+      background-color: transparent;
+      transition: all 200ms;
+
+      &:active, &:hover {
+        --pf-v5-c-button--after--BorderColor: var(--pf-v5-global--success-color--200);
+        color: var(--pf-v5-global--success-color--200);
+        background-color: transparent;
+      }
+    }
+
+    &.script-control--danger {
+      --pf-v5-c-button--after--BorderColor: var(--pf-v5-global--danger-color--100);
+      color: var(--pf-v5-global--danger-color--100);
+      background-color: transparent;
+      transition: all 200ms;
+
+      &:active, &:hover {
+        --pf-v5-c-button--after--BorderColor: var(--pf-v5-global--danger-color--200);
+        color: var(--pf-v5-global--danger-color--200);
+        background-color: transparent;
+      }
+    }
+  }
+}

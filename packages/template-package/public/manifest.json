@@ -1,0 +1,12 @@
+{
+  "requires": {
+    "cockpit": "137"
+  },
+  "menu": {
+    "index": {
+      "label": "Custom page",
+      "path": "index.html",
+      "order": 10
+    }
+  }
+}

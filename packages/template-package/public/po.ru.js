@@ -1,0 +1,17 @@
+cockpit.locale({
+  locale: [null, 'ru'],
+  appTitle: [null, 'Менеджер сценариев'],
+  appSubtitle: [null, 'Запуск сценария'],
+  appDescription: [null, 'Выберите сценарий для запуска'],
+  executeScriptBtn: [null, 'Выполнить сценарий'],
+  scriptsTabName: [null, 'Сценарии'],
+  logsTabName: [null, 'История выполнения'],
+  lineCount: [null, '{{count}} линий'],
+  search: [null, 'Поиск'],
+  executing: [null, 'Идет выполнение...'],
+  logsEmpty: [null, 'История отсутствует. Запустите действие,чтобы увидеть сообщения'],
+  selectedCount: [null, '{{selected}} из {{total}} сценариевы'],
+  selectAllScripts: [null, 'Выбрать все сценарии'],
+  command: [null, 'Команда для выполнения'],
+  unknown: [null, 'Неизвестный сценарий'],
+});

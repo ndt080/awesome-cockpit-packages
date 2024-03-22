@@ -1,0 +1,12 @@
+{
+  "scripts": [
+    {
+      "name": "Sleep script",
+      "command": "sleep 10"
+    },
+    {
+      "name": "Print 'Hello' script",
+      "command": "echo Hello"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "ESNext",
+      "ESNext.String"
+    ],
+    "composite": true,
+    "skipLibCheck": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "allowSyntheticDefaultImports": true
+  },
+  "exclude": [
+    "node_modules",
+    "*/node_modules/*",
+    "@patternfly/react-core"
+  ],
+  "include": [
+    "vite.config.ts"
+  ]
+}

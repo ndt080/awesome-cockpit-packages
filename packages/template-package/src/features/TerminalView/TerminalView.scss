@@ -1,0 +1,26 @@
+@use "@shared/styles/scroll" as scroll;
+
+.er-terminal-view {
+  @include scroll.custom-scroll;
+  margin: 10px;
+  border-radius: 3px;
+  overflow: auto;
+  max-height: 280px;
+
+  &.pf-v5-c-code-block {
+    --pf-v5-c-code-block__content--PaddingTop: 8px;
+    --pf-v5-c-code-block__content--PaddingRight: 10px;
+    --pf-v5-c-code-block__content--PaddingBottom: 8px;
+    --pf-v5-c-code-block__content--PaddingLeft: 10px;
+    --pf-v5-c-code-block--BackgroundColor: #1e1e1e;
+
+    code {
+      color: #b9b9b9;
+      font-size: 14px;
+    }
+
+    pre + pre {
+      margin-bottom: 2px;
+    }
+  }
+}
