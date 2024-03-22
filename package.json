@@ -1,5 +1,6 @@
 {
   "name": "awesome-cockpit-packages",
+  "version": "0.0.1",
   "author": "Andrei Petrov",
   "workspaces": [
     "packages/server-start"
