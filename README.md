@@ -112,8 +112,6 @@ export default defineConfig({
 4. Create a manifest of your Cockpit Package. Place the `manifest.json` file in `"packages/YOUR_PACKAGE/public/manifest.json"`
    Learn more about the [Cockpit package manifest](https://cockpit-project.org/guide/latest/packages.html#package-manifest)
 
-# Clear pnpm cache
+# Authors
 
-```bash
-pnpm stores prune
-```
+Andrey Petrov - [@ndt080](https://github.com/ndt080)
